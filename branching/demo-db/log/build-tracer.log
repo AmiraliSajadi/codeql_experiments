@@ -1,0 +1,61 @@
+[T 18:17:00 31878] CodeQL CLI version 2.16.0
+[T 18:17:00 31878] Initializing tracer.
+[T 18:17:00 31878] Initializing tags.
+[T 18:17:00 31878] ID set to 0000000000007C86_0000000000000001 (parent root)
+[T 18:17:00 31878] Initializing tracer.
+[T 18:17:00 31878] Initializing tags.
+[T 18:17:00 31878] ID set to 0000000000007C86_0000000000000002 (parent root)
+[T 18:17:00 31878] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:17:00 31878] ==== Candidate to intercept: /Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/tools/osx64/runner-osx (canonical: /Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/tools/osx64/runner-osx) ====
+[T 18:17:00 31878] Lua: === Intercepted call to /users/amirali/documents/code/iris_all/iris-v2-fork/codeql/tools/osx64/runner-osx ===
+[T 18:17:00 31878] Executing the following tracer actions:
+[T 18:17:00 31878] Tracer actions:
+[T 18:17:00 31878] pre_invocations(0)
+[T 18:17:00 31878] post_invocations(0)
+[T 18:17:00 31878] trace_languages(1): [java]
+[T 18:17:00 31880] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/current/bin/javac.semmle.00007C86.1ED422B8.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/current/bin/javac.semmle.00007C86.1ED422B8.slice.arm64
+/Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/current/bin/javac.semmle.00007C86.1ED422B8.slice.arm64: replacing existing signature
+[T 18:17:01 31878] Initializing tracer.
+[T 18:17:01 31878] Initializing tags.
+[T 18:17:01 31878] ID set to 0000000000007C86_0000000000000003 (parent 0000000000007C86_0000000000000002)
+[T 18:17:01 31878] ==== Candidate to intercept: /Users/amirali/.sdkman/candidates/java/current/bin/javac (canonical: /Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/javac) ====
+[T 18:17:01 31878] Lua: === Intercepted call to /users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/javac ===
+[T 18:17:01 31878] Executing the following tracer actions:
+[T 18:17:01 31878] Tracer actions:
+[T 18:17:01 31878] pre_invocations(0)
+[T 18:17:01 31878] post_invocations(0)
+[T 18:17:01 31878] trace_languages(1): [java]
+[T 18:17:01 31878] Passing through -javaagent:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 18:17:01 31878] Passing through -Xbootclasspath/a:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:17:01 31878] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:17:01 31885] Attempting to switch stdout/stderr to 18...
+/Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/21.0.4-tem/lib/jspawnhelper.semmle.00007C86.1CB2F450.slice.arm64: replacing existing signature
+[T 18:17:01 31888] Initializing tracer.
+[T 18:17:01 31888] Initializing tags.
+[T 18:17:01 31888] ID set to 0000000000007C90_0000000000000001 (parent 0000000000007C86_0000000000000003)
+[T 18:17:01 31888] ==== Candidate to intercept: /Users/amirali/.sdkman/candidates/java/21.0.4-tem/lib/jspawnhelper (canonical: /Users/amirali/.sdkman/candidates/java/21.0.4-tem/lib/jspawnhelper) ====
+[T 18:17:01 31888] Lua: === Intercepted call to /users/amirali/.sdkman/candidates/java/21.0.4-tem/lib/jspawnhelper ===
+[T 18:17:01 31888] Executing the following tracer actions:
+[T 18:17:01 31888] Tracer actions:
+[T 18:17:01 31888] pre_invocations(0)
+[T 18:17:01 31888] post_invocations(0)
+[T 18:17:01 31888] trace_languages(1): [java]
+[T 18:17:01 31889] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java.semmle.00007C90.2946D178.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java.semmle.00007C90.2946D178.slice.arm64
+/Users/amirali/Documents/code/test/demo-db/working/copy-root/000001F5/Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java.semmle.00007C90.2946D178.slice.arm64: replacing existing signature
+[T 18:17:01 31888] Initializing tracer.
+[T 18:17:01 31888] Initializing tags.
+[T 18:17:01 31888] ID set to 0000000000007C90_0000000000000002 (parent 0000000000007C90_0000000000000001)
+[T 18:17:01 31888] ==== Candidate to intercept: /Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java (canonical: /Users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java) ====
+[T 18:17:01 31888] Lua: === Intercepted call to /users/amirali/.sdkman/candidates/java/21.0.4-tem/bin/java ===
+[T 18:17:01 31888] Executing the following tracer actions:
+[T 18:17:01 31888] Tracer actions:
+[T 18:17:01 31888] pre_invocations(0)
+[T 18:17:01 31888] post_invocations(0)
+[T 18:17:01 31888] trace_languages(1): [java]
+[T 18:17:01 31888] Passing through -javaagent:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 18:17:01 31888] Passing through -Xbootclasspath/a:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:17:01 31888] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/amirali/Documents/code/iris_all/iris-v2-fork/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

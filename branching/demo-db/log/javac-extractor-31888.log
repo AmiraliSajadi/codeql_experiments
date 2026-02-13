@@ -1,0 +1,13 @@
+[2026-02-13 13:17:02] [javac-extractor-31888] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 21 --javac-args @@@/Users/amirali/Documents/code/test/demo-db/log/ext/javac.args
+                                              user.dir=/Users/amirali/Documents/code/test
+[2026-02-13 13:17:02] [javac-extractor-31888] Compilation name /Users/amirali/Documents/code/test/demo-db/trap/java/diagnostics/diagnostic.trap.gz
+[2026-02-13 13:17:02] [javac-extractor-31888] Annotation processor class 'lombok.launch.AnnotationProcessorHider$AnnotationProcessor' initialized.
+[2026-02-13 13:17:02] [javac-extractor-31888] Annotation processor class 'lombok.launch.AnnotationProcessorHider$ClaimingProcessor' initialized.
+[2026-02-13 13:17:02] [javac-extractor-31888] Processing file FlowSensitivityDemo.java
+[2026-02-13 13:17:03] [javac-extractor-31888] Processing module java.base
+[2026-02-13 13:17:03] [javac-extractor-31888] Javac init time: 0.5s
+[2026-02-13 13:17:03] [javac-extractor-31888] Javac attr time: 0.0s
+[2026-02-13 13:17:03] [javac-extractor-31888] Extractor time: 1.1s
+[2026-02-13 13:17:03] [javac-extractor-31888] Other time: 0.1s
+[2026-02-13 13:17:03] [javac-extractor-31888] Total time: 1.8s
