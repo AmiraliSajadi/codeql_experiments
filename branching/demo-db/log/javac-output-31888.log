@@ -1,7 +1,0 @@
-[2026-02-13 13:17:02] [javac-output-31888] Note: Annotation processing is enabled because one or more processors were found
-[2026-02-13 13:17:02] [javac-output-31888]   on the class path. A future release of javac may disable annotation processing
-[2026-02-13 13:17:02] [javac-output-31888]   unless at least one processor is specified by name (-processor), or a search
-[2026-02-13 13:17:02] [javac-output-31888]   path is specified (--processor-path, --processor-module-path), or annotation
-[2026-02-13 13:17:02] [javac-output-31888]   processing is enabled explicitly (-proc:only, -proc:full).
-[2026-02-13 13:17:02] [javac-output-31888]   Use -Xlint:-options to suppress this message.
-[2026-02-13 13:17:02] [javac-output-31888]   Use -proc:none to disable annotation processing.
